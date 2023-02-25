@@ -1,0 +1,11 @@
+git learning 
+1) git init --> to create an empty git repository or reinitialize an exsting one.
+2) git add <file name> --> to add file into staging area
+if we want to add multiple file then we have to use git add .
+3) git status --> we can check whether the file is added into staging area or not
+4) git commit -m "commit message" --> we have to commit our file into local repository from staging area.
+5) git remote add origin <remote repository name> --> is used to attach the remote repository.
+6) git push -u origin <branch-name:> -->is used to push the file from local repository to remote repository.
+7) git clone <remote repository name> --> is used to fetch the remote repository level information (from remote repository to local repository) then we have to use this command.
+8) git diff --> is used to show inside file how many lines it going to be modified.
+9) git log --> is used to show the how many commits are done.
